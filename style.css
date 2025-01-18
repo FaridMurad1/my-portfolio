@@ -1,0 +1,145 @@
+body{
+    font-family:sans-serif, Arial, Helvetica;
+    box-sizing: border-box;
+}
+h1{
+    font-size:50px;
+}
+.name{
+    color:brown;
+}
+.half-width{
+    width: 40%;
+    float:left;
+    margin-left:5%;
+    padding-left:3%;
+}
+.half-width img{
+    width:100%;
+    height:auto;
+}
+.half-width p{
+    font-size:20px;
+}
+.btn{
+    background-color:rgb(163, 241, 241);
+    color:red;
+    padding:10px;
+    margin:10px;
+    border-radius:10px;
+    text-decoration:none;
+    cursor:pointer;
+}
+.btn:hover{
+    background-color:rgb(53, 81, 236);
+    color:rgb(205, 205, 245);
+}
+.first-section {
+    position: relative;
+    background-image: url("images/banner.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+.second-section{
+    position: relative;
+    background-image: url("images/banner.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+.second-section img {
+    max-width: 100%;
+    height: auto;
+    display: block; /* Ensure no extra space below the image */
+    margin: 0 auto;
+}
+
+.third-section{
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+.project-section{
+    background-image: url("images/banner.jpg");
+}
+.project-section h2{
+    text-align:center;
+    padding-top:60px;
+    font-size:30px;
+    color:rgb(161, 66, 66);   
+}
+.third-section div {
+    width: 30%;
+}
+.third-section img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+.third-section img:hover{
+    transform: scale(1.05);
+}
+.project-section h3{
+    text-align:center;
+    padding-top:20px;
+    font-size:30px;
+    color:rgb(161, 66, 66);   
+}
+.project-section h4{
+
+    text-align:center;
+    padding-top:50px;
+    font-size:25px;
+    color:rgb(220, 98, 98);   
+}
+.founder{
+    text-align:center;
+    
+    font-size:20px;
+    color:rgb(85, 60, 230);   
+}
+.about{
+    text-align:center;
+    padding-top:40px;
+    font-size:20px;
+    color:rgb(38, 194, 111);   
+}
+footer {
+    text-align:center;
+    padding-top:40px;
+    color:blue;
+}
+.page-container {
+    display: flex;
+    justify-content: center; 
+    align-items: center;  
+    background-color: #f5f5f5;
+  }
+  
+.message-container {
+    display: inline-block;
+    margin:40px;
+    padding: 20px;
+    border: 2px solid rgb(237, 237, 247);
+    border-radius: 10px;
+    background-color: #cc5774;
+    text-align: center;
+}
